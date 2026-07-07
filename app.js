@@ -51,7 +51,7 @@ function loginUser() {
     const loginMessage = document.getElementById("login-message");
 
     if (username === "" || password === "") {
-        loginMessage.textContent = "Please enter both username and password.";
+        loginMessage.textContent = "Error: Please enter both username and password.";
         loginMessage.className = "message error";
         return;
     }
